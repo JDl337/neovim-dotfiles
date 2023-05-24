@@ -46,3 +46,8 @@ opt.wildmode = "longest:full,full"
 opt.winminwidth = 5
 
 opt.completeopt = "menu,menuone,noselect"
+
+--treesitter folding
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim_treesitter#foldexpr()"
+opt.foldenable = false
