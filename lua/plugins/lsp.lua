@@ -5,6 +5,7 @@ return {
     local lspconfig = require('lspconfig')
     lspconfig.pyright.setup {}
     lspconfig.clangd.setup {}
+    lspconfig.tsserver.setup{}
 
     --Enable (broadcasting) snippet capability for completion
     local capabilities = vim.lsp.protocol.make_client_capabilities()
