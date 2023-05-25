@@ -6,9 +6,6 @@ vim.keymap.set("i", "kj", "<esc>")
 vim.keymap.set("n", "0", "^")
 vim.keymap.set("n", "^", "0")
 
---yank to clipboard
-vim.keymap.set({ "n", "v" }, "<leader>y", '"+y')
-
 
 -- copied from lazyvim --
 

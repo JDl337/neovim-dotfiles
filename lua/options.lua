@@ -47,6 +47,8 @@ opt.winminwidth = 5
 
 opt.completeopt = "menu,menuone,noselect"
 
+opt.clipboard = "unnamedplus" -- Sync with system clipboard
+
 --treesitter folding
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
