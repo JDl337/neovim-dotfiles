@@ -10,8 +10,9 @@ vim.keymap.set("n", "^", "0")
 -- copied from lazyvim --
 
 --switch buffers
-vim.keymap.set("n", "[b", "<cmd>bprevious<cr>")
-vim.keymap.set("n", "]b", "<cmd>bnext<cr>")
+vim.keymap.set("n", "[b", "<cmd>bprevious<cr>", { desc = "Previous buffer" })
+vim.keymap.set("n", "]b", "<cmd>bnext<cr>", { desc = "Next buffer" })
+vim.keymap.set("n", "<leader>bb", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
 
 --clear search with <esc>
 vim.keymap.set("n", "<esc>", "<cmd>noh<cr><esc>");
