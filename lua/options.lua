@@ -49,6 +49,8 @@ opt.completeopt = "menu,menuone,noselect"
 
 opt.clipboard = "unnamedplus" -- Sync with system clipboard
 
+opt.formatoptions = "jcroqlnt" -- tcqj
+
 opt.grepprg = "rg --vimgrep"
 opt.grepformat = "%f:%l:%c:%m"
 
