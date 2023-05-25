@@ -54,6 +54,8 @@ opt.formatoptions = "jcroqlnt" -- tcqj
 opt.grepprg = "rg --vimgrep"
 opt.grepformat = "%f:%l:%c:%m"
 
+opt.mouse = ""
+
 --treesitter folding
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
