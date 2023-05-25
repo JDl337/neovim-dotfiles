@@ -41,3 +41,7 @@ vim.keymap.set("n", "]q", vim.cmd.cnext, { desc = "Next quickfix" })
 
 --inspect pos
 vim.keymap.set("n", "<leader>ui", vim.show_pos, { desc = "Inspect Pos" })
+
+-- jk and kj for exiting terminal mode
+vim.keymap.set("t", "jk", "<c-\\><c-n>")
+vim.keymap.set("t", "kj", "<c-\\><c-n>")
