@@ -49,6 +49,9 @@ opt.completeopt = "menu,menuone,noselect"
 
 opt.clipboard = "unnamedplus" -- Sync with system clipboard
 
+opt.grepprg = "rg --vimgrep"
+opt.grepformat = "%f:%l:%c:%m"
+
 --treesitter folding
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
