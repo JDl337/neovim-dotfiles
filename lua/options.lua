@@ -24,7 +24,6 @@ opt.splitright = true
 opt.list = true
 
 opt.pumblend = 10
-
 opt.pumheight = 10
 
 opt.scrolloff = 4
@@ -55,6 +54,8 @@ opt.grepprg = "rg --vimgrep"
 opt.grepformat = "%f:%l:%c:%m"
 
 opt.mouse = ""
+
+opt.confirm = true -- Confirm to save changes before exiting modified buffer
 
 --treesitter folding
 opt.foldmethod = "expr"
